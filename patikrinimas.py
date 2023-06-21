@@ -15,7 +15,7 @@
 # suma = 0
 #
 # for skaicius in sarasas:
-#     suma += skaicius
+#     suma = sum(sarasas)
 #
 # print(suma)
 
