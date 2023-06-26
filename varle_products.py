@@ -1,5 +1,5 @@
 # import requests
-# from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 # import psycopg2
 #
 # def create_and_insert_product():
@@ -8,7 +8,7 @@
 #         port=5432,
 #         database="products",
 #         user="postgres",
-#         password="a1b2r3a4"
+#         password="reikia ivesti savo"
 #     )
 #
 #     # execute SQL statement

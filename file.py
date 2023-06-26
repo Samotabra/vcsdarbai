@@ -22,7 +22,7 @@
 # except:
 #     print("Something went wrong!")
 
-filename = input("Iveskite naujo failo pavadinima-> ")
+#filename = input("Iveskite naujo failo pavadinima-> ")
 
 # try:
 #     with open(filename, "w", encoding="utf8") as file:
