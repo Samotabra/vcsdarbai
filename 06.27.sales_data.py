@@ -20,7 +20,7 @@ from matplotlib import pyplot as plt
 # plt.ylabel('klientai')
 # plt.show()
 
-#2.
+#2. Atrinkite užsakymus, kurių suma viršija 1000 eurų
 
 # group_by_order = df[df['SALES'] > 1000]
 # print(group_by_order)
@@ -42,9 +42,10 @@ from matplotlib import pyplot as plt
 # end_date = '2005-03-15'
 # order_date = df[df['ORDERDATE'].between(start_date, end_date)]
 
-#4. Išfiltruokite užsakymus, kurių statusas 'Disputed' NEBAIGTA
+#4. Išfiltruokite užsakymus, kurių statusas 'Disputed'
 
-#disputed = status
+# disputed = df[df['STATUS']=='Disputed']
+# print(disputed)
 
 #5(1).Sukurkite skritulinę diagramą, kurioje būtų pavaizduota klientų skaičiaus pasiskirstymas pagal šalis
 
