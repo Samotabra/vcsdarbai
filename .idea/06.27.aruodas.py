@@ -90,13 +90,21 @@ for i in range(1, 5):
 
     # Sukuriame Pandas DataFrame iš duomenų sąrašo
     df = pd.DataFrame(duomenys)
-
-
-    # #print(df)                                          #NERA REZULTATO
+    # print(df)
     # df['Kaina'] = pd.to_numeric(df['Kaina'])
 
-    #avg_price_by_location = df.agg({'Kaina':[mean, min, max, size]})
+    # skelbimu kainu statistika
+
+    # avg_price = df.agg({'Kaina':[mean, min, max, size]})
+    # print(avg_price)
+
     # avg_price_by_location = df.groupby('vieta')[Kaina].mean()
+    # print(avg_price_by_location)
+
+    # skelbimu ploto statistika
+
+    # avg_square = df.agg({'Plotas':[mean, min, max, size]})
+    # print(avg_square)
 
 
 

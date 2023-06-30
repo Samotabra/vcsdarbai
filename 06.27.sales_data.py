@@ -1,7 +1,7 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 
-#Suskirstykite klientus pagal šalį.
+# Suskirstykite klientus pagal šalį.
 # Atrinkite užsakymus, kurių suma viršija 1000 eurų
 # Išfiltruokite užsakymus, kurie buvo pristatyti nuo 2003/9/30 iki 2005/03/15 .
 # Išfiltruokite užsakymus, kurių statusas 'Disputed';
@@ -9,7 +9,9 @@ from matplotlib import pyplot as plt
 
 #df = pd.read_csv('sales_data_sample.csv', encoding="ISO-8859-1")
 # print(df.head(5))
-#
+
+# 1.Suskirstykite klientus pagal šalį.
+
 # group_country = df.groupby('COUNTRY')
 # print(group_country)
 #
