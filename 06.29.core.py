@@ -1,5 +1,7 @@
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+
 #
 # # sukuriame np array (Masyva)
 #
@@ -98,24 +100,41 @@ import matplotlib.pyplot as plt
 #.................................................................
 # #duomenu sarasas su akciju kainu reiksmemis
 # akcijos = np.array([100, 110, 120, 115, 105, 95, 105, 100])
-#
-# #apskaiciuojame dienos pelna ir nuostoli
+# #
+# # #apskaiciuojame dienos pelna ir nuostoli
 # dienos_pelnas = akcijos[1:] - akcijos[:-1]
 # dienos_nuostolis = akcijos[:-1] - akcijos[1:]
-#
-# #randame diena su didziausia ir maziausia akciju kaina
+# #
+# # #randame diena su didziausia ir maziausia akciju kaina
 # didziausia_reiksme = np.max(akcijos)
 # didziausia_reiksme_indeksas = np.argmax(akcijos)
 # maziausia_reiksme = np.min(akcijos)
 # maziausios_reiksmes_indeksas = np.argmin(akcijos)
-#
-# # apskaiciuoti akciju kainos svyravimus
+# #
+# # # apskaiciuoti akciju kainos svyravimus
 # kainos_svyravimas = np.ptp(akcijos)
-#
+# #
 # print(f'Dienos pelnas: {dienos_pelnas}')
 # print(f'Dienos nuostolis: {dienos_nuostolis}')
 # print(f'Didziausia akciju kaina: {didziausia_reiksme}, diena: {didziausia_reiksme_indeksas +1}')
 # print(f'maziausia akciju kaina: {maziausia_reiksme}, diena: {maziausios_reiksmes_indeksas +1}')
 #
 # print(f'Akciju kainos svyravimas: {kainos_svyravimas}')
+#
+# #Piesiame linijine diagrama
+# plt.plot(range(1, len(akcijos) + 1), akcijos, marker='o')
+# plt.title('Akciju kainos')
+# plt.xlabel('Diena')
+# plt.ylabel('Kaina')
+#
+# # Zymime didziausia ir maziausia reiksmes
+# plt.plot(didziausia_reiksme_indeksas + 1, didziausia_reiksme, marker='o', color='red', label='Didziausia')
+# plt.plot(maziausios_reiksmes_indeksas + 1, maziausia_reiksme, marker='o', color='green', label='Maziausia')
+#
+# #Rodyti legenda
+# plt.legend()
+#
+# #rodyti diagrama
+# plt.show()
+#........................................
 

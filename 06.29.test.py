@@ -37,3 +37,12 @@
 #
 # df = pd.read_csv('duomenys.csv')
 # print(df.head(10))
+
+# 3. Užduotis:
+#      [+] Išskirkite produktų pavadinimus iš {https://www.rde.lt/categories/lt/1599/sort/5/filter/0_0_0_0/page/1/
+#      Dvira%C4%8Diai.html} puslapio naudodami Beautiful Soup ir išsaugokite juos į Pandas DataFrame stulpelį.
+# 4. Užduotis:
+#     [+] Išskirkite informaciją apie produktų kainas ir jų kategorijas iš pigu.lt puslapio naudodami Beautiful Soup ir
+#     išsaugokite juos į Pandas DataFrame.
+#     [+]  Remdamiesi gautais duomenimis sukurkite stulpelinę diagramą, kurioje bus pavaizduotos produktų kainos pagal
+#     kategorijas mažėjančia tvarka.
