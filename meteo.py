@@ -35,10 +35,10 @@
 #
 # week_day_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 # print(reorder_temperature)
-
-
+#
+#
 # #temp_values = night_temp
-
+#
 # # for weekdays in week_day_order:
 # #     for weekday, temperature in zip(seven_days, temperatures_days):
 # #         if weekdays in weekday:

@@ -1,5 +1,5 @@
 # import requests
-#from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 # import psycopg2
 #
 # def create_and_insert_product():
