@@ -188,7 +188,7 @@ group_sum = df.groupby('Marke') ['IS_VISO'].sum() #corect imam
 #
 # group_min = df.groupby('Marke')['IS_VISO'].min()   # mayby imam
 # print(group_min)
-
+#.....................................................................
 
 
 
