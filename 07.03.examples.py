@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # pavyzdyniai duomenys
-# data = sns.load_dataset('tips')
+data = sns.load_dataset('tips')
 
 
 # stiliaus nustatymas
-# sns.set_style('whitegrid')
+sns.set_style('whitegrid')
 
 # braizome stulpeline diagrama
 
@@ -17,21 +17,21 @@ import seaborn as sns
 # sns.lineplot(x='total_bill', y='tip', data=data)
 # sns.histplot(x='total_bill', data=data)
 # sns.boxplot(x='day', y='total_bill', data=data)
-
+#
 # numeric_cols = data.select_dtypes(include=['float64', 'int64']).columns
 # koreliacija = data[numeric_cols].corr()
 # sns.heatmap(koreliacija, annot=True, cmap='coolwarm')
-
+#
 # sns.violinplot(x='day', y='total_bill', data=data)
 # sns.pairplot(data)
 
-# diagramos pavadinimas
-# plt.title('tips by total bill')
-#
-# plt.show()
+#diagramos pavadinimas
+#plt.title('tips by total bill')
+
+#plt.show()
 
 # pavyzdyniai duomenys
-# data = sns.load_dataset('diamonds')
+data = sns.load_dataset('diamonds')
 
 # column_names = data.columns
 # print(column_names)
@@ -58,12 +58,12 @@ import seaborn as sns
 # #method for showing column values on bar chart.
 # for i, count in enumerate(survived_counts.values):
 #     plt.text(i, count, str(count), ha='center', va='bottom')
-# # total_survived = data["survived"].sum()
+#     total_survived = data["survived"].sum()
 #
 # plt.xlabel('Keliones klase')
 # plt.ylabel('Isgyvenusiuju skaicius')
 # plt.title('isgyvenusiuju skaicius pagal klase')
-#
+# #
 # plt.show()
 
 # ....................................

@@ -5,29 +5,29 @@ import matplotlib.pyplot as plt
 #
 # # sukuriame np array (Masyva)
 #
-# # arr = np.array([1, 2, 3])
-# # arr2 = np.array([4, 5, 6])
-# # result = arr + arr2
-# #
-# # print(result)
+# arr = np.array([1, 2, 3])
+# arr2 = np.array([4, 5, 6])
+# result = arr + arr2
+#
+# print(result)
 #
 # #kelimas kvadratu
-#arr = np.array([1, 2, 3, 4, 5])
+arr = np.array([1, 2, 3, 4, 5])
 # #result = np.square(arr)
 #
 # #indeksavimas
-# #value = arr[1]
-# #print(value)
+# value = arr[1]
+# print(value)
 #
-# # array slicing
-# # sliced_arr = arr[1:4]
-# # print(sliced_arr)
+#array slicing
+# sliced_arr = arr[1:4]
+# print(sliced_arr)
 #
-# # sliced_arr = arr[:3] #rodo pirmas tris reiksmes
-# # print(sliced_arr)
+# sliced_arr = arr[:3] #rodo pirmas tris reiksmes
+# print(sliced_arr)
 #
-# # sliced_arr = arr[3:] #reiksmes po 3 (4 ir 5)
-# # print(sliced_arr)
+# sliced_arr = arr[3:] #reiksmes po 3 (4 ir 5)
+# print(sliced_arr)
 #
 # matrica = np.array([[1,2,3], [4,5,6], [7,8,9]])
 # matrica2 = np.array([[10,11,12], [13,14,15], [16,17,18]])

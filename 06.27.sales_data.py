@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 # Išfiltruokite užsakymus, kurių statusas 'Disputed';
 # Sukurkite skritulinę diagramą, kurioje būtų pavaizduota klientų skaičiaus pasiskirstymas pagal šalis
 
-#df = pd.read_csv('sales_data_sample.csv', encoding="ISO-8859-1")
+# df = pd.read_csv('sales_data_sample.csv', encoding="ISO-8859-1")
 # print(df.head(5))
 
 # 1.Suskirstykite klientus pagal šalį.
